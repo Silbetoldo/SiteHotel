@@ -1,0 +1,47 @@
+#box {
+    border: 1px solid black;
+    width: 1200px;
+    height: 500px;
+    margin: 1px 1px 1px 100px;
+    padding: 15px;
+    background: rgb(16, 57, 79);
+}
+
+#texto {
+    background: red;
+    border: 2px solid black;
+    text-align: center;
+    margin: 25px 1px 1 px 1px;
+    color: black;
+    font-style: bold;
+}
+
+#galeria-foto {
+    background: #FFFFFF;
+    width: 300px;
+    padding: 20px;
+    float: left;
+    margin: 25px 25px 25px 35px;
+}
+
+#galeria-foto:hover {
+    width: 400px;
+    padding: 5px;
+    float: left;
+    margin: 20px 20px 25px 25px;
+}
+
+#container {
+    margin: 10px 100px 15px 10px;
+    padding: 15px 50px 5px 15px;
+    background: white;
+    width: 1150px;
+    height: 100px;
+    font-style: bold;
+    text-align: center;
+}
+
+#img1 {
+    width: 650px;
+    margin: 20px 10px 10px 260px;
+}

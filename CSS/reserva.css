@@ -1,0 +1,58 @@
+.registroformulario {
+    width: 600px;
+    background-color: rgb(16, 57, 79);
+    margin: auto;
+    color: #ffffff;
+    padding: 40px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: inset 0 0 1em rgb(217, 255, 0), 0 0 1em red;
+}
+
+.conteudo {
+    background-color: rgb(16, 57, 79);
+    width: 600px;
+    height: 1400px;
+    margin: auto;
+    box-shadow: inset 0 0 1em rgb(217, 255, 0), 0 0 1em red;
+}
+
+legend {
+    text-align: center;
+    color: white;
+}
+
+p {
+    color: white;
+    font: bold;
+    text-align: center;
+}
+
+textarea {
+    width: 550px;
+}
+
+.button1 {
+    width: 100%;
+    font-size: 18px;
+    border-radius: 4px;
+    color: #fff;
+    height: 50px;
+    opacity: .8;
+    margin-bottom: 20px 500px 20px 20px;
+    cursor: pointer;
+    background: red;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #500707;
+    border-right: 1px solid #500707;
+    transition: 1s;
+}
+
+.button1:hover {
+    opacity: 1;
+}
+
+ul {
+    margin-right: 100px;
+}

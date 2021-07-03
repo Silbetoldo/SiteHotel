@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!-- doctype do HTML5 -->
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="css/rodape.css">
+    <link rel="stylesheet" type="text/css" href="css/box.css">
+    <link rel="stylesheet" type="text/css" href="css/reserva.css">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+    <!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+   <![endif]-->
+
+</head>
+
+<body>
+    <div class="w3-card-z4" style=width="50%">
+        <header class="w3-container w3-blue">
+            <h1 align="center">RESERVAS</h1>
+        </header>
+
+    </div>
+
+    <div id="lateral" onclick="return true" aria-haspopup="true">
+        <div id="menu">
+
+            <h3 class="link-titulo">HOTEL TROPICALLE</h3>
+            <ul class="box">
+
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="Acomodacoes.html">ACOMODAÇÕES</a></li>
+                <li><a href="Restaurante.html">RESTAURANTE</a></li>
+                <li><a href="eventos.html">EVENTOS</a></li>
+                <li><a href="Lazer.html">LAZER</a></li>
+                <li><a href="reservas.html">RESERVAS</a></li>
+                <li><a href="Servicos.html">SERVIÇOS</a></li>
+                <li><a href="sobre.html">SOBRE NÓS</a></li>
+                <li><a href="contato.html">CONTATO</a></li>
+                <li><a href="Localizacao.html">LOCALIZAÇÃO</a></li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+    <div class="registroformulario">
+        <h1>Faça sua Reserva </h1>
+    </div>
+
+    <div class="conteudo">
+
+        <form>
+            <fieldset>
+                <legend>
+                    <p>Cadastro</p>
+                </legend>
+                <fieldset id="Usuario">
+                    <legend>
+                        <p>Identificação do Cliente</p>
+                    </legend>
+                    <p>
+                        <label for="Cnome">Nome:<br/></label><input type="text" name="tnome" id="Cnome" size="20" maxlength="40" placeholder="Digite o seu nome"></p><br/>
+                    <p>Sobrenome:<br/><input type="text" name="tsobre" id="Csobre" size="20" maxlength="40" placeholder="Digite o sobrenome"></p><br/>
+                    <p>E-mail:<br/><input type="email" name="temail" id="Cemail" size="20" maxlength="40" placeholder="Digite o Email"></p>
+                    </br>
+                    <p>DDD:<br/><input type="number" name="tCri" id="cCri" size="2" min="0" maxlength="10"></p><br/></p>
+                    <p>Telefone:<br/>
+                        <input type="text" name="nasc" placeholder="(dd)0000-0000" /></p>
+
+                </fieldset>
+                <fieldset id="sexo">
+                    <legend>
+                        <p>Sexo</p>
+                    </legend>
+                    <p><input type="radio" name="tsexo" id="cMasc" /> <label for="cMasc">Masculino</label></p><br/>
+                    <p> <input type="radio" name="tsexo" id="cFem" /> <label for="cFem">Feminino</label></p>
+                </fieldset>
+                <fieldset id="endereço">
+                    <legend>
+                        <p>Endereço do Usuario</p><br/>
+                    </legend>
+                    <p>Cidade:<br/><input type="text" name="tCid" id="cCid"></p><br/>
+                    <p><label for="cEst">Estado:<br/></label><select name="tEst" id="cEst">
+                        <option>SP</option>
+                        <option>MG</option>
+                        <option>RJ</option>
+                        <option>MT</option>
+                        <option>AC</option>
+                        <option>Am</option>
+
+                    </select></p>
+                </fieldset><br/>
+                <p>Data de Nascimento:<br/><input type="date" name="tNasc" id="CNasc"></p>
+                <fieldset><br/>
+                    <legend>
+                        <p>Reserva</p>
+                    </legend>
+                    <p>Check-in:<br/> <input type="date" name="tChek" id="cChek"></p><br/>
+                    <p>Check-out:<br/> <input type="date" name="tChe" id="cCh"></p>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        <p>Visitantes</p>
+                    </legend>
+                    <p>Qt.Crianças:<br/> <input type="number" name="tCri" id="cCri" size="2" min="0" maxlength="10"></p><br/>
+                    <p>Qt.Adultos:<br/> <input type="number" name="tAdul" id="cAdul" size="2" min="0" maxlength="10"></p>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        <p>Mensagem</p>
+                    </legend><br>
+
+                    <textarea name="tMsg" id="cMsg" rows="5" cols="55" placeholder="Deixe aqui sua mensagem"></textarea></b>
+                    </fildset>
+                </fieldset>
+                <input class="button1" type="submit" value="Enviar" />
+        </form>
+
+    </div>
+
+    <hr>
+    <div id="rodape">
+        <fieldset>
+            <legend><b>INFORMAÇÕES:</b></legend>
+            <div id="info">
+                <b><ul >
+
+                    <li>R: Claudionor cinti, 283, Araçatuba - SP</li>
+
+                    <li>Telefone: +55 18 0000-0000 | +55 18 98811-7352</li>
+
+                    <li>E-mail: silbetoldo.ata@hoteltropicalle.com.br</li>
+        </ul></b>
+            </div>
+            <b><h3>Receba novidades</h3></b>
+            <label for="Email">E-mail:</label>
+            <input type="email" class="form-contact-input" name="email" placeholder="Email" required />
+            <b><button type="submit" class="form-contact-button">Enviar</button></b>
+            </br>
+            </br>
+        </fieldset>
+
+
+    </div>
+    <h6 align="center">Desenvolvido por: 2020 &copy; Silvana Betoldo | Todos os direitos reservados</h6>
+    </div>
+</body>
+
+</html>
